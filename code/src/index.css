@@ -176,46 +176,32 @@ h3 {
    justify-content: flex-end;
  }
 
+.articlePic, .writerPic  {
+  background-position: center;
+  background-size: cover;
+}
+
 #puff1 {
   background-image: url(/images/medium-image-puff-1.jpeg);
-  background-position: center;
-  background-size: cover;
 }
-
-#writer1 {
-  background-image: url(/images/writer-1.png);
-  background-position: center;
-  background-size: cover;
-}
-
 #puff2 {
   background-image: url(/images/medium-image-puff-2.png);
-  background-position: center;
-  background-size: cover;
 }
-#writer2 {
-  background-image: url(/images/writer-2.jpeg);
-  background-position: center;
-  background-size: cover;
-}
-
 #puff3 {
   background-image: url(/images/medium-image-puff-4.jpeg);
-  background-position: center;
-  background-size: cover;
-}
-#writer3 {
-  background-image: url(/images/writer-3.jpeg);
-  background-position: center;
-  background-size: cover;
 }
 #puff4 {
   background-image: url(/images/medium-image-puff-3.png);
-  background-position: center;
-  background-size: cover;
+}
+#writer1 {
+  background-image: url(/images/writer-1.png);
+}
+#writer2 {
+  background-image: url(/images/writer-2.jpeg);
+}
+#writer3 {
+  background-image: url(/images/writer-3.jpeg);
 }
 #writer4 {
   background-image: url(/images/writer-4.jpeg);
-  background-position: center;
-  background-size: cover;
 }

@@ -1,5 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+/*H1: Lora (google font) Desktop: 42px, tablet: 28px, mobile: 28px*/
+
+/*H2 (bold), p: Lucida Grande Desktop: 16/12px, tablet: 14/16(H2)/12px, mobile: 14/12px*/
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.headerHeading {
+  font-family: Lucida Grande;
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: Lora;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: Lucida Grande;
+  font-size: 16px;
+  margin: 0;
+}
+
+h3 {
+  font-family: Lucida Grande;
+  font-size: 12px;
+  display: block;
+  margin: 0;
+}
+
+.header {
+  height: 75px;
+  border-bottom: 2px solid #e4e4e4;
+  padding-left: 220px;
+  padding-right: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#headerButton {
+  background-color: #26a87c;
+  height: 30px;
+  font-family: Lucida Grande;
+  font-size: 14px;
+  color: white;
+  border: 0;
+}
+
+.hero {
+  margin-left: 220px;
+  margin-right: 220px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroTextBox {
+  width: 50%;
+  height: 100%;
+}
+
+.heroText {
+  margin: 0;
+}
+
+.heroButton {
+  margin: 40px 10px 40px 0px;
+  height: 30px;
+  font-family: Lucida Grande;
+  font-size: 14px;
+  color: white;
+  border: 0;
+}
+
+#heroButton1 {
+  background-color: black;
+}
+
+#heroButton2 {
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
+}
+
+#heroPic {
+  width: 50%;
+  background-image: url(/images/medium-image.png);
+  background-position: right;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.articles {
+  margin-left: 220px;
+  margin-right: 220px;
+  border-top: 2px solid #e4e4e4;
+  padding-top: 24px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.article {
+  border: 2px solid #e4e4e4;
+  flex-direction: row;
+  width: 488px;
+  height: 255px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.articlePic {
+  width: 200px;
+  height: 255px;
+}
+
+.articleTextBox {
+  padding: 16px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.articleText {
+  font-family: Lucida Grande;
+  font-size: 12px;
+}
+
+.writer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.writerText {
+  margin-left: 16px;
+  width: 188px;
+}
+
+ .writerPic {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+ }
+
+ .writer p {
+   font-family: Lucida Grande;
+   font-size: 10px;
+   display: block;
+   margin: 0;
+   margin-top: 5px;
+   color: #a9a9a9;
+ }
+
+ .bookmark {
+   width: 15px;
+   height: 20px;
+   background-image: url(/images/bookmark.png);
+   background-position: center;
+   background-size: 95%;
+   background-repeat: no-repeat;
+   justify-content: flex-end;
+ }
+
+#puff1 {
+  background-image: url(/images/medium-image-puff-1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#writer1 {
+  background-image: url(/images/writer-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#puff2 {
+  background-image: url(/images/medium-image-puff-2.png);
+  background-position: center;
+  background-size: cover;
+}
+#writer2 {
+  background-image: url(/images/writer-2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#puff3 {
+  background-image: url(/images/medium-image-puff-4.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#writer3 {
+  background-image: url(/images/writer-3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#puff4 {
+  background-image: url(/images/medium-image-puff-3.png);
+  background-position: center;
+  background-size: cover;
+}
+#writer4 {
+  background-image: url(/images/writer-4.jpeg);
+  background-position: center;
+  background-size: cover;
 }

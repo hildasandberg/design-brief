@@ -24,7 +24,6 @@ class App extends React.Component {
         </div>
 
         <div className="hero">
-
           <div className="heroTextBox">
             <h1>Interesting ideas that set your mind in motion</h1>
             <p className="heroText">
@@ -37,7 +36,6 @@ class App extends React.Component {
               Learn More
             </button>
           </div>
-
           <div id="heroPic">
           </div>
         </div>
@@ -138,17 +136,10 @@ class App extends React.Component {
               </div>
             </div>
           </article>
-
         </section>
-
-
-
-
-
       </div>
     )
   }
-
 }
 
 export default App
